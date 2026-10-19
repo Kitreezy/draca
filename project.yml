@@ -1,0 +1,47 @@
+name: Draca
+options:
+  bundleIdPrefix: com.draca
+  deploymentTarget:
+    iOS: "17.0"
+    macOS: "14.0"
+  createIntermediateGroups: true
+settings:
+  base:
+    SWIFT_VERSION: "5.0"
+    MARKETING_VERSION: "0.1"
+    CURRENT_PROJECT_VERSION: "1"
+targets:
+  DracaMac:
+    type: application
+    platform: macOS
+    sources: [Mac, Shared]
+    info:
+      path: Mac/Info.plist
+      properties:
+        CFBundleDisplayName: Draca
+        LSUIElement: true
+        NSLocalNetworkUsageDescription: Draca находит iPhone рядом, чтобы передавать файлы.
+        NSBonjourServices: [_draca-aim._tcp, _draca-aim._udp]
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.draca.mac
+        CODE_SIGN_IDENTITY: "-"
+        ENABLE_HARDENED_RUNTIME: NO
+  DracaPhone:
+    type: application
+    platform: iOS
+    sources: [iOS, Shared]
+    info:
+      path: iOS/Info.plist
+      properties:
+        CFBundleDisplayName: Draca
+        UILaunchScreen: {}
+        UISupportedInterfaceOrientations: [UIInterfaceOrientationPortrait]
+        NSCameraUsageDescription: Камера нужна, чтобы навести телефон на экран Mac.
+        NSLocalNetworkUsageDescription: Draca находит Mac рядом, чтобы передавать файлы.
+        NSBonjourServices: [_draca-aim._tcp, _draca-aim._udp]
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.draca.phone
+        TARGETED_DEVICE_FAMILY: "1"
+        CODE_SIGN_STYLE: Automatic

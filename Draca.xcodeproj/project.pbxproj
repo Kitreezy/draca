@@ -1,0 +1,437 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		31C1E3BEBBBC0279B59CC4A1 /* MarkerOverlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABAB9447C44FEB37409B55F1 /* MarkerOverlay.swift */; };
+		33163C5AA9DAB7B6A67F8018 /* ScreenPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D5322FFF771BAEE1116B9F1 /* ScreenPicker.swift */; };
+		3637D6CEDDEB88F2908F438D /* AimView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4CBF4E5A44C19E1D974EC3E /* AimView.swift */; };
+		37E17BBD275988D6369768D1 /* DracaMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFEF98AD3FCF9A59C31AF7FB /* DracaMessage.swift */; };
+		3CD9B1AB0A233C8A186B2CC9 /* DracaMacApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 472A90EAF83CD11CBDB271AA /* DracaMacApp.swift */; };
+		41E602C20E6DBC38FD47E2D0 /* PeerLink.swift in Sources */ = {isa = PBXBuildFile; fileRef = C05948494DA1A0B63013D583 /* PeerLink.swift */; };
+		70BAB30ECC7BFF93EEA734C5 /* DracaMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFEF98AD3FCF9A59C31AF7FB /* DracaMessage.swift */; };
+		73AD303174CCBBCF2B53D2A4 /* Homography.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB61EA9EEE4E575F4166461E /* Homography.swift */; };
+		929ECF7359B8B14B8ABAC617 /* MarkerTracker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A85848CFAB69B32D5DC21B8 /* MarkerTracker.swift */; };
+		94EE75DAABE7DDDDD7468E56 /* CameraController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5469D4DB5717FF1516A8F22C /* CameraController.swift */; };
+		9D1B52D31F0F36A6530DD8E1 /* MacModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD3598CB977C70861F0CE25B /* MacModel.swift */; };
+		AC0BC7434B965DF820397D2A /* PhoneModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9F976F5EEE7BA671A42D20A /* PhoneModel.swift */; };
+		BE1AFC2C17841DEBA187C827 /* PeerLink.swift in Sources */ = {isa = PBXBuildFile; fileRef = C05948494DA1A0B63013D583 /* PeerLink.swift */; };
+		D7963F2D7D9C6708201AB196 /* Homography.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB61EA9EEE4E575F4166461E /* Homography.swift */; };
+		F24E287649FD2F7BE7CDB023 /* DracaPhoneApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD0C8097A353E86A66C9AE5B /* DracaPhoneApp.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3D5322FFF771BAEE1116B9F1 /* ScreenPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenPicker.swift; sourceTree = "<group>"; };
+		472A90EAF83CD11CBDB271AA /* DracaMacApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DracaMacApp.swift; sourceTree = "<group>"; };
+		5469D4DB5717FF1516A8F22C /* CameraController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraController.swift; sourceTree = "<group>"; };
+		6A85848CFAB69B32D5DC21B8 /* MarkerTracker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarkerTracker.swift; sourceTree = "<group>"; };
+		6FBC0133B5F6D43F8A850050 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		77DBC412C966AF89F492F3C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		8AB9B6D781A3F2B59590A28B /* DracaMac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DracaMac.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABAB9447C44FEB37409B55F1 /* MarkerOverlay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarkerOverlay.swift; sourceTree = "<group>"; };
+		C05948494DA1A0B63013D583 /* PeerLink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeerLink.swift; sourceTree = "<group>"; };
+		C4CBF4E5A44C19E1D974EC3E /* AimView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AimView.swift; sourceTree = "<group>"; };
+		CB61EA9EEE4E575F4166461E /* Homography.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Homography.swift; sourceTree = "<group>"; };
+		CD0C8097A353E86A66C9AE5B /* DracaPhoneApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DracaPhoneApp.swift; sourceTree = "<group>"; };
+		D9F976F5EEE7BA671A42D20A /* PhoneModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneModel.swift; sourceTree = "<group>"; };
+		DD3598CB977C70861F0CE25B /* MacModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MacModel.swift; sourceTree = "<group>"; };
+		DFEF98AD3FCF9A59C31AF7FB /* DracaMessage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DracaMessage.swift; sourceTree = "<group>"; };
+		F6F3C4D70968932878588336 /* DracaPhone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DracaPhone.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		05349049D7566E7B2CB986CE /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				C4CBF4E5A44C19E1D974EC3E /* AimView.swift */,
+				5469D4DB5717FF1516A8F22C /* CameraController.swift */,
+				CD0C8097A353E86A66C9AE5B /* DracaPhoneApp.swift */,
+				77DBC412C966AF89F492F3C2 /* Info.plist */,
+				6A85848CFAB69B32D5DC21B8 /* MarkerTracker.swift */,
+				D9F976F5EEE7BA671A42D20A /* PhoneModel.swift */,
+			);
+			path = iOS;
+			sourceTree = "<group>";
+		};
+		77D37CF003645B699943D441 = {
+			isa = PBXGroup;
+			children = (
+				05349049D7566E7B2CB986CE /* iOS */,
+				A71D342C8C43C1ADDAE4D879 /* Mac */,
+				82C5174B60810FF817B60701 /* Shared */,
+				E13D9F62C9810CF0F9B3E37E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		82C5174B60810FF817B60701 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				DFEF98AD3FCF9A59C31AF7FB /* DracaMessage.swift */,
+				CB61EA9EEE4E575F4166461E /* Homography.swift */,
+				C05948494DA1A0B63013D583 /* PeerLink.swift */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		A71D342C8C43C1ADDAE4D879 /* Mac */ = {
+			isa = PBXGroup;
+			children = (
+				472A90EAF83CD11CBDB271AA /* DracaMacApp.swift */,
+				6FBC0133B5F6D43F8A850050 /* Info.plist */,
+				DD3598CB977C70861F0CE25B /* MacModel.swift */,
+				ABAB9447C44FEB37409B55F1 /* MarkerOverlay.swift */,
+				3D5322FFF771BAEE1116B9F1 /* ScreenPicker.swift */,
+			);
+			path = Mac;
+			sourceTree = "<group>";
+		};
+		E13D9F62C9810CF0F9B3E37E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8AB9B6D781A3F2B59590A28B /* DracaMac.app */,
+				F6F3C4D70968932878588336 /* DracaPhone.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		45DA646D1C427D2868C53C3F /* DracaPhone */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A475084B1B297F4B3BC45D62 /* Build configuration list for PBXNativeTarget "DracaPhone" */;
+			buildPhases = (
+				B39BB6EF6C13B506017C9F25 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DracaPhone;
+			packageProductDependencies = (
+			);
+			productName = DracaPhone;
+			productReference = F6F3C4D70968932878588336 /* DracaPhone.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7D143D78CE34A2F84FF44BA6 /* DracaMac */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6E9CEA9AEFD750EDA3BD9AFC /* Build configuration list for PBXNativeTarget "DracaMac" */;
+			buildPhases = (
+				4C7BC10AE39ED9B15E7B146A /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DracaMac;
+			packageProductDependencies = (
+			);
+			productName = DracaMac;
+			productReference = 8AB9B6D781A3F2B59590A28B /* DracaMac.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4A7593DF5A41C5E1573DC5F9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					45DA646D1C427D2868C53C3F = {
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 90CDD8A9D08D573D5648287A /* Build configuration list for PBXProject "Draca" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 77D37CF003645B699943D441;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = E13D9F62C9810CF0F9B3E37E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7D143D78CE34A2F84FF44BA6 /* DracaMac */,
+				45DA646D1C427D2868C53C3F /* DracaPhone */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4C7BC10AE39ED9B15E7B146A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CD9B1AB0A233C8A186B2CC9 /* DracaMacApp.swift in Sources */,
+				37E17BBD275988D6369768D1 /* DracaMessage.swift in Sources */,
+				D7963F2D7D9C6708201AB196 /* Homography.swift in Sources */,
+				9D1B52D31F0F36A6530DD8E1 /* MacModel.swift in Sources */,
+				31C1E3BEBBBC0279B59CC4A1 /* MarkerOverlay.swift in Sources */,
+				BE1AFC2C17841DEBA187C827 /* PeerLink.swift in Sources */,
+				33163C5AA9DAB7B6A67F8018 /* ScreenPicker.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B39BB6EF6C13B506017C9F25 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3637D6CEDDEB88F2908F438D /* AimView.swift in Sources */,
+				94EE75DAABE7DDDDD7468E56 /* CameraController.swift in Sources */,
+				70BAB30ECC7BFF93EEA734C5 /* DracaMessage.swift in Sources */,
+				F24E287649FD2F7BE7CDB023 /* DracaPhoneApp.swift in Sources */,
+				73AD303174CCBBCF2B53D2A4 /* Homography.swift in Sources */,
+				929ECF7359B8B14B8ABAC617 /* MarkerTracker.swift in Sources */,
+				41E602C20E6DBC38FD47E2D0 /* PeerLink.swift in Sources */,
+				AC0BC7434B965DF820397D2A /* PhoneModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		4C7D9023035B7D6C5409EDF0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "-";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				"DEVELOPMENT_TEAM[sdk=macosx*]" = "";
+				ENABLE_HARDENED_RUNTIME = NO;
+				INFOPLIST_FILE = Mac/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.draca.mac;
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=macosx*]" = "";
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		648B37AAB98A9CB499FF897D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 0.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		6AD248C67A2A8C77B4EF9264 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LJZ97X76W9;
+				INFOPLIST_FILE = iOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.draca.phone;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		9297323C4FE1E1CF8D55270A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "-";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				"DEVELOPMENT_TEAM[sdk=macosx*]" = "";
+				ENABLE_HARDENED_RUNTIME = NO;
+				INFOPLIST_FILE = Mac/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.draca.mac;
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=macosx*]" = "";
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		B7D69CDA92662FDB85A60DD0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LJZ97X76W9;
+				INFOPLIST_FILE = iOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.draca.phone;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		E7685CBFADCAE157604476ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 0.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6E9CEA9AEFD750EDA3BD9AFC /* Build configuration list for PBXNativeTarget "DracaMac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9297323C4FE1E1CF8D55270A /* Debug */,
+				4C7D9023035B7D6C5409EDF0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		90CDD8A9D08D573D5648287A /* Build configuration list for PBXProject "Draca" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				648B37AAB98A9CB499FF897D /* Debug */,
+				E7685CBFADCAE157604476ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		A475084B1B297F4B3BC45D62 /* Build configuration list for PBXNativeTarget "DracaPhone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6AD248C67A2A8C77B4EF9264 /* Debug */,
+				B7D69CDA92662FDB85A60DD0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4A7593DF5A41C5E1573DC5F9 /* Project object */;
+}
